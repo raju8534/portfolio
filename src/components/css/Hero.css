@@ -1,0 +1,56 @@
+.hero-area {
+    background: url('../../images/banner/home-banner.png') no-repeat 0% 50%;
+    height: 100vh;
+}
+
+.hero-area .hero-text h3 {
+    padding-top: 35%;
+    font-size: 3rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.hero-area .hero-text h3::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 3%;
+    top: 90%;
+
+}
+
+.hero-area .hero-text h1 {
+    font-size: 3.3rem;
+    font-weight: bold;
+    padding: 1.7rem 0;
+}
+
+.hero-area .hero-text h4 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+
+.hero-area .hero-text button {
+    margin-top: 2.3rem;
+    padding: 1rem 3rem;
+    border-color: #7851EA;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-width: 2px;
+}
+
+.hero-area .hero-text button:hover {
+    color: white;
+    background: #7851EA;
+    box-shadow: 1px 1px #7851EA;
+}
+
+.hero-area .hero-img img {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+}
