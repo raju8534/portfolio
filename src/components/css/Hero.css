@@ -46,7 +46,7 @@
 .hero-area .hero-text button:hover {
     color: white;
     background: #7851EA;
-    box-shadow: 1px 1px #7851EA;
+    box-shadow: 0px 2px 10px #8465df;
 }
 
 .hero-area .hero-img img {

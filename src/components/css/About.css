@@ -1,0 +1,41 @@
+.about-area {
+    padding: 8rem 5rem;
+}
+
+.about-area .about-img {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+
+}
+
+.about-area .about-text {
+
+    margin-left: 2rem;
+}
+
+.about-area .about-text h1>span {
+    letter-spacing: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+    display: block;
+    text-transform: uppercase;
+}
+
+.about-area .about-text .paragraph {
+    text-align: justify;
+}
+
+.about-area .about-text button {
+    background: #7851EA;
+    padding: 1rem 3.5rem;
+    border: 2px solid #7851EA;
+    box-shadow: 0 2px 10px #7851EA;
+    text-transform: uppercase;
+}
+
+.about-area .about-text button:hover {
+    color: black;
+    background: #FAF8FF;
+    transition: .5s all ease;
+}
