@@ -1,0 +1,46 @@
+.service-area {
+    padding: 8rem 5rem;
+}
+
+.service-area h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+}
+
+.service-area p {
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+}
+
+.services {
+    padding: 2rem 0;
+}
+
+.services .content {
+    padding: 2rem 2rem;
+    background: rgba(220, 230, 233, 0.205);
+}
+
+.services .content:hover,
+.services .content .active {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    transition: box-shadow .6s;
+    overflow: hidden;
+
+}
+
+.services .content img {
+    padding: 2rem 0;
+}
+
+
+
+.services .content h5 {
+    text-transform: uppercase;
+}
+
+.services .content p {
+    margin-top: 1rem;
+}

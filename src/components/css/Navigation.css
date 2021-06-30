@@ -1,3 +1,8 @@
+.nav-area {
+    background: black;
+}
+
+
 .ml-auto.navbar-nav {
     text-transform: uppercase;
     font-weight: 500;
@@ -11,7 +16,7 @@ a.navbar-brand {
 
 .navbar-nav a {
     padding: 1rem 2rem !important;
-    color: black !important;
+    color: white !important;
 }
 
 .nav-area .active {
@@ -19,6 +24,6 @@ a.navbar-brand {
 }
 
 .navbar-nav a:hover {
-    transition: .5s all ease;
     color: #7851EA !important;
+    transition: .5s all ease-in;
 }

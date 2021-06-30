@@ -3,7 +3,7 @@ import './css/Hero.css'
 import img from '../images/banner/banner-image.png'
 const Hero = () => {
     return (
-        <div className="hero-area">
+        <div className="hero-area container-fluid">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 hero-text">
