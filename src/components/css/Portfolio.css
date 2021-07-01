@@ -1,0 +1,25 @@
+.portfolio-area {
+    padding: 2rem 5rem;
+}
+
+.portfolio-area .button-group {
+    margin-bottom: 3rem;
+    left: 0;
+}
+
+.portfolio-area .button-group button {
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+}
+
+.portfolio-area h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+}
+
+.menu-content .content img:hover {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}

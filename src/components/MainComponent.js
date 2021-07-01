@@ -4,6 +4,7 @@ import Hero from './Hero';
 import About from './About';
 import Skills from './Skills';
 import Services from './Services';
+import Portfolio from './Portfolio';
 function MainComponent() {
 
     return (
@@ -13,6 +14,7 @@ function MainComponent() {
             <About />
             <Skills />
             <Services />
+            <Portfolio />
         </div >
     )
 
