@@ -2,24 +2,53 @@
     padding: 2rem 5rem;
 }
 
+.portfolio-area h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
 .portfolio-area .button-group {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     left: 0;
 }
 
 .portfolio-area .button-group button {
     justify-content: space-around;
     text-transform: uppercase;
-    padding: .5rem 1rem;
+    padding: .5rem 2rem;
+    font-weight: 500;
 }
 
-.portfolio-area h2 {
-    font-weight: 600;
-    font-size: 2.5rem;
-    margin-bottom: 1.6rem;
-    text-transform: uppercase;
+.portfolio-area .button-group button.first {
+    padding-left: 0;
+}
+
+
+.menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    height: auto;
+}
+
+.menu-content .content {
+    padding: 0.5rem 1rem;
+}
+
+.menu-content .content img {
+    height: 345px;
+    width: auto;
 }
 
 .menu-content .content img:hover {
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.menu-content .content h4 {
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
 }
