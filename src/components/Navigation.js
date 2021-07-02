@@ -7,7 +7,6 @@ function Navigation() {
     let changeBackground=()=>{
         if(window.scrollY>=80){
             setbackground(true);
-            console.log(window.scrollY);
         }  
         else
         setbackground(false);

@@ -1,0 +1,40 @@
+.subscription-area {
+    padding: 9rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90rem;
+    background: url("../../images/subscribe-bg.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.subscription-content h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+}
+
+.subscription-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+input[type="email"] {
+    width: 400px;
+    padding: 1rem;
+    margin-right: 3rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.subscription-content .subscription-form button {
+    padding: 1.1rem 2rem;
+    background: white;
+    border-radius: 10px;
+}

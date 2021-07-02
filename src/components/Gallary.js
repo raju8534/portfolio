@@ -7,7 +7,6 @@ import img6 from '../images/portfolio/p6.jpg'
 import img7 from '../images/portfolio/p7.jpg'
 import img8 from '../images/portfolio/p8.jpg'
 import img9 from '../images/portfolio/p9.jpg'
-import img10 from '../images/portfolio/portfolio-details.jpg'
 const Menu=[
     {
         id: 1,

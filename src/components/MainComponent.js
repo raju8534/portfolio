@@ -5,6 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Services from './Services';
 import Portfolio from './Portfolio';
+import Subscription from './Subscription';
 function MainComponent() {
 
     return (
@@ -15,6 +16,8 @@ function MainComponent() {
             <Skills />
             <Services />
             <Portfolio />
+            <Subscription />
+
         </div >
     )
 
