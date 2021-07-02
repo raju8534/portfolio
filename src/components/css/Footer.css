@@ -1,0 +1,14 @@
+.footer-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+}
+
+.footer-area p {
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    margin-bottom: 0;
+}

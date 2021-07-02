@@ -1,5 +1,6 @@
 .portfolio-area {
     padding: 2rem 5rem;
+    margin-bottom: 90rem;
 }
 
 .portfolio-area h2 {
@@ -30,11 +31,11 @@
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    height: auto;
 }
 
 .menu-content .content {
     padding: 0.5rem 1rem;
+    width: min-content;
 }
 
 .menu-content .content img {
